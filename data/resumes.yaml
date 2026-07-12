@@ -1,0 +1,295 @@
+resumes:
+  test_verification:
+    summary_type: preset
+    summary_key: data_analytics
+    projects:
+    - Crop and Fertilizer Predictive Analytics
+    - Spam Detection using BERT
+    open_source_enabled: true
+    open_source:
+    - 'fix: correct broken link for digit classifier exercise'
+    skills:
+    - Python
+    - SQL
+    - Pandas
+    certifications:
+    - Big Data Foundations - Level 1
+  my_google_cv:
+    summary_type: default
+    summary_key: null
+    custom_summary_text: null
+    projects:
+    - AIVOX (AI Interview Coach)
+    - News Research & Synthesis Agent
+    open_source_enabled: true
+    open_source:
+    - Differentiable Mutual Information Loss & Batch Consistency Validation
+    - Added explicit check to raise ValueError on CPU devices
+    - 'feat: add rectangular and gaussian kernels for mutual information loss'
+    skills:
+    - FastAPI
+    - GenAI
+    - Git
+    - Keras
+    - LLM Agents
+    - LangChain
+    - MySQL
+    - NumPy
+    - Pandas
+    - Python
+    - RAG Pipelines
+    - SQL
+    - Streamlit
+    - TensorFlow
+    certifications:
+    - Data Science
+    - Big Data Foundations - Level 1
+    - GenAI Job Simulation
+  data_analytics:
+    summary_type: custom
+    summary_key: null
+    custom_summary_text: 'Final-year Data Analytics student at DSEU specializing in
+      data cleaning, structured analysis, and visualization. Experienced in using
+      Python and SQL to transform raw datasets into actionable insights and interactive
+      dashboards. Proven track record in building high-performance AI solutions and
+      contributing to elite open-source projects like Google DeepMind and Kornia '
+    projects:
+    - AIVOX (AI Interview Coach)
+    - News Research & Synthesis Agent
+    - Automated SQL Query & Reporting System
+    open_source_enabled: true
+    open_source:
+    - 'feat: add rectangular and gaussian kernels for mutual information loss'
+    - 'feat: Add Stochastic Decomposition Layer and Fix Dependencies'
+    skills:
+    - Css
+    - Differentiable Programming
+    - Django
+    - Docker
+    - Excel
+    - FastAPI
+    - Flask
+    - Git
+    - Html
+    - Javascript
+    - Kornia
+    - LangChain
+    - Langgraph
+    - Matplotlib
+    - MySQL
+    - Power BI
+    - Python
+    - SQL
+    - Scikit-learn
+    - Seaborn
+    - Streamlit
+    - Tableau
+    - TensorFlow
+    certifications:
+    - Data Science
+    - Big Data Foundations - Level 1
+    - GenAI Job Simulation
+    - AI and Data Scientist
+  Audio_ML:
+    summary_type: custom
+    summary_key: null
+    custom_summary_text: Final-year Data Analytics student at DSEU with experience
+      in building real-time AI tools and conducting large-scale data analysis. Alongside
+      my studies, I have contributed to open-source projects for Google DeepMind and
+      Kornia. I focus on developing low-latency processing pipelines and transforming
+      raw datasets into useful insights for decision-making.
+    projects:
+    - AIVOX (AI Interview Coach)
+    - News Research & Synthesis Agent
+    - Automated SQL Query & Reporting System
+    open_source_enabled: true
+    open_source:
+    - 'feat: Add Stochastic Decomposition Layer and Fix Dependencies'
+    - '[Feature]: Implement Rectangular and Truncated Gaussian Kernels for Mutual
+      Information'
+    skills:
+    - Css
+    - Django
+    - Docker
+    - FastAPI
+    - Flask
+    - Git
+    - Html
+    - Javascript
+    - Keras
+    - Kornia
+    - LangChain
+    - Langgraph
+    - Matplotlib
+    - MySQL
+    - NLTK
+    - Node.js
+    - NumPy
+    - OpenCV
+    - Pandas
+    - PyTorch
+    - Python
+    - RAG Pipelines
+    - SQL
+    - Scikit-learn
+    - Seaborn
+    - Streamlit
+    - TensorFlow
+    - deepface
+    - n8n
+    - pixi
+    certifications:
+    - Big Data Foundations - Level 1
+    - GenAI Job Simulation
+    - Software Engineering Job Simulation
+    - AI and Data Scientist
+  PythonDev:
+    summary_type: custom
+    summary_key: null
+    custom_summary_text: "Final-year B.Sc. Data Analytics student and Contributor\
+      \ to\n      Google DeepMind, Kornia, and Open Climate Fix. Expert in building\
+      \ low-latency\n      AI applications (<100ms) with a focus on Computer Vision,\
+      \ Differentiable Programming,\n      and Deep Learning. Recognized as a Regional\
+      \ Finalist in the Delhi Startup Yuva\n      Festival for RailFlow AI and winner\
+      \ of the DSEU Rajokri Campus Hackathon. Proven\n      track record of optimizing\
+      \ data pipelines and reducing report generation times\n      by 95% while deploying\
+      \ scalable, high-impact ML solutions."
+    projects:
+    - AIVOX (AI Interview Coach)
+    - Automated SQL Query & Reporting System
+    open_source_enabled: true
+    open_source:
+    - '[Feature]: Implement Rectangular and Truncated Gaussian Kernels for Mutual
+      Information'
+    - Clarify difference between kl_divergence and convex_kl_divergence
+    skills:
+    - Css
+    - deepface
+    - Differentiable Programming
+    - Django
+    - Docker
+    - Excel
+    - FastAPI
+    - Flask
+    - Git
+    - Html
+    - Javascript
+    - Keras
+    - Kornia
+    - LangChain
+    - Langgraph
+    - Matplotlib
+    - MySQL
+    - NLTK
+    - Node.js
+    - NumPy
+    - OpenCV
+    - Pandas
+    - pixi
+    - Power BI
+    - PyTorch
+    - Python
+    - RAG Pipelines
+    - SQL
+    - Scikit-learn
+    - Seaborn
+    - spaCy
+    - Streamlit
+    - TensorFlow
+    - n8n
+    - tailwindcss
+    certifications:
+    - Data Science
+    - Big Data Foundations - Level 1
+    - GenAI Job Simulation
+    - Software Engineering Job Simulation
+    - AI and Data Scientist
+  AiDev:
+    summary_type: preset
+    summary_key: ai_dev
+    projects:
+    - News Research & Synthesis Agent
+    - Automated SQL Query & Reporting System
+    - Pneumonia Detection
+    open_source_enabled: true
+    open_source:
+    - Added explicit check to raise ValueError on CPU devices
+    - 'feat: add rectangular and gaussian kernels for mutual information loss'
+    skills:
+    - Python
+    - SQL
+    - JS
+    - Java
+    - HTML
+    - Tailwind
+    - NumPy
+    - Pandas
+    - Scikit-learn
+    - Matplotlib
+    - pyplot
+    - Streamlit
+    - FastAPI
+    - Node.js
+    - Django
+    - React
+    - LangChain
+    - RAG Pipelines
+    - Langgraph
+    - NLTK
+    - OpenCV
+    - PyTorch
+    - TensorFlow
+    - Docker
+    - Git
+    - n8n
+    certifications:
+    - Data Science
+    - GenAI Job Simulation
+    - Big Data Foundations - Level 1
+    - Software Engineering Job Simulation
+  ai_engineer:
+    summary_type: preset
+    summary_key: ai_engineer
+    projects:
+    - AIVOX (AI Interview Coach)
+    - News Research & Synthesis Agent
+    - Healthcare Chatbot
+    open_source_enabled: true
+    open_source:
+    - Added explicit check to raise ValueError on CPU devices
+    - 'feat: add rectangular and gaussian kernels for mutual information loss'
+    - Clarify difference between kl_divergence and convex_kl_divergence
+    skills:
+    - Python
+    - SQL
+    - C++
+    - Javascript
+    - Java
+    - Typescript
+    - FastAPI
+    - Node.js
+    - React
+    - REST APIs
+    - NumPy
+    - Pandas
+    - PyTorch
+    - TensorFlow
+    - Keras
+    - Kornia
+    - OpenCV
+    - deepface
+    - LangChain
+    - Langgraph
+    - RAG Pipelines
+    - Scikit-learn
+    - Differentiable Programming
+    - Git
+    - Docker
+    - Azure
+    - Azure AI Foundry
+    certifications:
+    - Data Science
+    - GenAI Job Simulation
+    - Big Data Foundations - Level 1
+    - Software Engineering Job Simulation
+    - AI and Data Scientist
