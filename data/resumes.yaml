@@ -1,19 +1,4 @@
 resumes:
-  test_verification:
-    summary_type: preset
-    summary_key: data_analytics
-    projects:
-    - Crop and Fertilizer Predictive Analytics
-    - Spam Detection using BERT
-    open_source_enabled: true
-    open_source:
-    - 'fix: correct broken link for digit classifier exercise'
-    skills:
-    - Python
-    - SQL
-    - Pandas
-    certifications:
-    - Big Data Foundations - Level 1
   my_google_cv:
     summary_type: default
     summary_key: null
@@ -89,59 +74,6 @@ resumes:
     - Data Science
     - Big Data Foundations - Level 1
     - GenAI Job Simulation
-    - AI and Data Scientist
-  Audio_ML:
-    summary_type: custom
-    summary_key: null
-    custom_summary_text: Final-year Data Analytics student at DSEU with experience
-      in building real-time AI tools and conducting large-scale data analysis. Alongside
-      my studies, I have contributed to open-source projects for Google DeepMind and
-      Kornia. I focus on developing low-latency processing pipelines and transforming
-      raw datasets into useful insights for decision-making.
-    projects:
-    - AIVOX (AI Interview Coach)
-    - News Research & Synthesis Agent
-    - Automated SQL Query & Reporting System
-    open_source_enabled: true
-    open_source:
-    - 'feat: Add Stochastic Decomposition Layer and Fix Dependencies'
-    - '[Feature]: Implement Rectangular and Truncated Gaussian Kernels for Mutual
-      Information'
-    skills:
-    - Css
-    - Django
-    - Docker
-    - FastAPI
-    - Flask
-    - Git
-    - Html
-    - Javascript
-    - Keras
-    - Kornia
-    - LangChain
-    - Langgraph
-    - Matplotlib
-    - MySQL
-    - NLTK
-    - Node.js
-    - NumPy
-    - OpenCV
-    - Pandas
-    - PyTorch
-    - Python
-    - RAG Pipelines
-    - SQL
-    - Scikit-learn
-    - Seaborn
-    - Streamlit
-    - TensorFlow
-    - deepface
-    - n8n
-    - pixi
-    certifications:
-    - Big Data Foundations - Level 1
-    - GenAI Job Simulation
-    - Software Engineering Job Simulation
     - AI and Data Scientist
   PythonDev:
     summary_type: custom
@@ -262,7 +194,6 @@ resumes:
     skills:
     - Python
     - SQL
-    - C++
     - Javascript
     - Java
     - Typescript
