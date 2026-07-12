@@ -1,0 +1,825 @@
+{
+  "profile": {
+    "name": "Pawan Parida",
+    "email": "13zero7two005@gmail.com",
+    "phone": "8700579954",
+    "location": "New Delhi, Delhi, India",
+    "address": "WZ-114B Naraina village",
+    "linkedin": "linkedin.com/in/pawan-parida-60134b276",
+    "github": "github.com/zer-art",
+    "website": "zer-art.github.io/portfolio-neo/",
+    "default_config": {
+      "theme": "modern",
+      "show_projects": true
+    },
+    "custom_summaries": {
+      "data_analytics": "Data Analytics student (graduating 2026) with expertise in Python (Pandas, NumPy), SQL,  and Data Visualization. Seeking an internship to leverage skills in predictive modeling and automated reporting. Core Contributor to Google DeepMind and Kornia libraries. Proven ability to optimize data pipelines and reduce retrieval times by 95%.\n",
+      "ai_engineer": "Computer Science student specializing in Deep Learning, Differentiable Programming, and LLM Agents. Seeking an AI Engineering internship. Core Contributor to Google DeepMind (Optax, MuJoCo)  and Kornia libraries. Experienced in building low-latency AI agents (<100ms latency)  and optimizing production ML workflows.\n",
+      "ai_dev": "Final-year student specializing in AI/ML development, dataset preprocessing, and Generative AI solutions. Proven experience in cleaning/preprocessing datasets, performing EDA, and building/testing automated systems using Python (NumPy, Pandas, Scikit-learn, Matplotlib). Core contributor to Google DeepMind and Kornia libraries, leveraging Git/GitHub for version control to deliver robust production-ready code."
+    },
+    "summary": "Final-year Data Analytics student seeking entry-level opportunities. Core Contributor to  Google DeepMind and Kornia. Expertise in Python, SQL, and predictive modeling.  Passionate about translating complex datasets into actionable business insights.\n",
+    "education": [
+      {
+        "institution": "DSEU Rajokri Campus",
+        "location": "Delhi, India",
+        "degree": "B.Sc Data Analytics",
+        "field": "Information Technology",
+        "duration": "Jun 2023 - Present",
+        "cgpa": "8.5",
+        "cuet": "84%",
+        "cuet_percentile": "84% (Best 2 Subjects + 1 Language)",
+        "coursework": [
+          "Data Analysis",
+          "Advance Excel",
+          "Data Structure and Algorithm",
+          "Discrete Mathmatics",
+          "Statistical Modeling",
+          "Machine Learning",
+          "Database Management (SQL)",
+          "Data Visualization using Python",
+          "Power BI"
+        ],
+        "achievements": [
+          "DSEU RIT Campus Hackthon 2025 1st place winner [Link](https://www.linkedin.com/posts/pawan-parida-60134b276_hackathon-winner-dseu-activity-7409801315503017984-Xgg0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAENTlaEB49ZUCvBQwO0amZN6fR6q7QFHvTI)",
+          "Selected in Delhi Startup Yuva Festival 2025 - 2026 [Link](https://www.linkedin.com/posts/pawan-parida-60134b276_railflowai-visioncraft-dseu-activity-7408714159888195584-YHzT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAENTlaEB49ZUCvBQwO0amZN6fR6q7QFHvTI)",
+          "DSEU RIT Campus Badminton 2025 2nd place winner"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "organization": "Edunet Foundation",
+        "location": "New Delhi, India",
+        "position": "Project Intern",
+        "link": "https://www.linkedin.com/in/pawan-parida-60134b276/overlay/1748663591740/single-media-viewer/?profileId=ACoAAENTlaEB49ZUCvBQwO0amZN6fR6q7QFHvTI",
+        "duration": "APR 2025 - MAY 2025",
+        "achievements": [
+          "Processed and analyzed **2,000+ agricultural soil samples** using **Pandas** and **Jupyter Notebook**, implementing a **Decision Tree algorithm** via **scikit-learn** to optimize fertilizer ratios and reduce chemical waste by **~15%**.",
+          "Deployed a **Streamlit dashboard** ([Demo](https://www.linkedin.com/posts/pawan-parida-60134b276_machinelearning-datascience-agriculturetech-activity-7330211883410432000-NwYd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAENTlaEB49ZUCvBQwO0amZN6fR6q7QFHvTI)) to visualize crop viability, cutting interpretation time by **40%**."
+        ]
+      },
+      {
+        "organization": "UptoSkills",
+        "location": "Delhi, India (Remote)",
+        "position": "AI/ML Intern",
+        "link": "https://www.linkedin.com/in/pawan-parida-60134b276/edit/forms/position/2952384748/",
+        "duration": "Feb 2026 - Jun 2026",
+        "achievements": [
+          "Built secure **REST APIs** and backend logic using **Fernet-encrypted payload storage** and JSON packaging for live meetings.",
+          "Developed a Gemini-powered **CaptionGen** app with robust output parsing and **Pydantic validation**.",
+          "Built a **Document Generator**, **Sentiment Analysis pipeline**, and a **CustomCanva_AI** **AI recap review system**."
+        ]
+      }
+    ],
+    "skills": {
+      "Programming_Languages": [
+        "Python",
+        "SQL",
+        "C++",
+        "Javascript",
+        "JS",
+        "Java",
+        "Html",
+        "HTML",
+        "Css",
+        "Typescript",
+        "tailwindcss",
+        "Tailwind"
+      ],
+      "Web_Frameworks_and_APIs": [
+        "FastAPI",
+        "Node.js",
+        "Express.js",
+        "Flask",
+        "Django",
+        "React.js",
+        "React",
+        "React Native",
+        "REST APIs"
+      ],
+      "Data_Science_and_Machine_Learning": [
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "spaCy",
+        "Scikit-learn",
+        "Differentiable Programming"
+      ],
+      "Computer_Vision,NLP_and_LLMs": [
+        "OpenCV",
+        "Kornia",
+        "deepface",
+        "RAG Pipelines",
+        "LangChain",
+        "Langgraph",
+        "NLTK",
+        "n8n"
+      ],
+      "DevTools": [
+        "Docker",
+        "Git",
+        "MySQL",
+        "pixi",
+        "n8n",
+        "Azure",
+        "Azure AI Foundry"
+      ],
+      "Data_Visualization_and_Analytics": [
+        "Tableau",
+        "Power BI",
+        "Google Analytics",
+        "Excel",
+        "Matplotlib",
+        "Seaborn",
+        "Streamlit",
+        "pyplot"
+      ]
+    },
+    "projects": [
+      {
+        "name": "AIVOX (AI Interview Coach)",
+        "github": "https://github.com/zer-art/Academics/tree/main/Major-project",
+        "roles": [
+          "ai_engineer"
+        ],
+        "date": "September 2025",
+        "association": "DSEU Delhi Skill Entrepreneurship University",
+        "description": "Real-time interview coaching platform integrating AI technologies for comprehensive interview preparation.\n",
+        "achievements": [
+          "Built **Groq/Whisper** pipeline with **<100ms** latency, integrating **MediaPipe** at **32 FPS** for visual cues.",
+          "Optimized **FastAPI** backend for high concurrency, reducing report generation times by **95%**."
+        ],
+        "tags": [
+          "FastAPI",
+          "LangChain",
+          "Google Gemini API",
+          "MediaPipe",
+          "OpenCV",
+          "PyTorch",
+          "Groq"
+        ]
+      },
+      {
+        "name": "News Research & Synthesis Agent",
+        "github": "https://github.com/zer-art/LLM-Projects/tree/main/News-Research-Analysis",
+        "roles": [
+          "ai_engineer"
+        ],
+        "description": "Autonomous Generative AI research agent using LangChain and optimized RAG pipelines for synthesizing insights from concurrent sources.\n",
+        "achievements": [
+          "Engineered scalable **RAG pipeline** synthesizing 50+ sources with 88.3% accuracy (NDCG@5) using LLMs.",
+          "Optimized custom prompts and async workflows, reducing research time from hours to <2.1 seconds."
+        ],
+        "tags": [
+          "LangChain",
+          "RAG Pipelines",
+          "Gemini/OpenAI API",
+          "Python",
+          "ChromaDB",
+          "HuggingFace",
+          "Prompt Engineering",
+          "Streamlit",
+          "Git"
+        ]
+      },
+      {
+        "name": "Resume Classification & Analytics System",
+        "roles": [
+          "data_analytics",
+          "ai_engineer"
+        ],
+        "description": "Machine Learning classification and EDA pipeline for preprocessing, cleaning, and categorizing unstructured text datasets.\n",
+        "achievements": [
+          "Preprocessed text datasets with **Pandas** & **NumPy**, achieving 98.45% accuracy across 25+ categories via **Scikit-learn**.",
+          "Performed EDA using **Matplotlib** to identify skill trends, saving 12+ hours/week of manual analysis."
+        ],
+        "tags": [
+          "NLP",
+          "Machine Learning",
+          "TF-IDF"
+        ]
+      },
+      {
+        "name": "Automated SQL Query & Reporting System",
+        "roles": [
+          "data_analytics"
+        ],
+        "github": "https://github.com/zer-art/LLM-Projects/tree/main/Mysql-database-chatbot",
+        "description": "Generative AI Natural Language to SQL engine and data reporting interface for instant data access.\n",
+        "achievements": [
+          "Engineered Text-to-SQL engine with **Gemini LLM**, achieving 91.2% accuracy across complex schemas.",
+          "Used **Streamlit** & **Pandas** to visualize reporting, reducing generation from 10 minutes to <1 second across 500+ queries."
+        ],
+        "tags": [
+          "streamlit",
+          "langchain-huggingface",
+          "PyMySQL",
+          "SQLAlchemy",
+          "sentence-transformers",
+          "chromadb"
+        ]
+      },
+      {
+        "name": "Pneumonia Detection",
+        "roles": [
+          "ai_engineer"
+        ],
+        "github": "https://github.com/zer-art/Computer-Vision-Projects/tree/pneumonia-detection-import/pneumonia-detection",
+        "description": "CNN-based medical diagnostic system for pneumonia detection from chest X-rays.\n",
+        "achievements": [
+          "Trained and optimized a **CNN** on chest X-rays, achieving 91.3% validation accuracy and minimizing false negatives.",
+          "Deployed the final model via **FastAPI** for low-latency, real-time inference."
+        ],
+        "tags": [
+          "TensorFlow",
+          "CNN",
+          "FastAPI",
+          "Computer Vision",
+          "OpenCV",
+          "NumPy",
+          "Matplotlib",
+          "Data Augmentation",
+          "Git/GitHub"
+        ]
+      },
+      {
+        "name": "Healthcare Chatbot",
+        "roles": [
+          "ai_engineer"
+        ],
+        "date": "Jun 2025",
+        "github": "https://github.com/zer-art/ML_PROJECTS/tree/main/Helthcare-app",
+        "description": "Context-aware medical assistant using vector search and generative AI.\n",
+        "achievements": [
+          "Implemented RAG architecture with Pinecone vector database, achieving <100ms semantic search latency.",
+          "Integrated Gemini for context-aware medical Q&A with verified knowledge sources."
+        ],
+        "tags": [
+          "RAG",
+          "Vector Database",
+          "Healthcare"
+        ]
+      },
+      {
+        "name": "Crop and Fertilizer Predictive Analytics",
+        "roles": [
+          "data_analytics"
+        ],
+        "date": "May 2025",
+        "github": "https://github.com/zer-art/ML_PROJECTS/tree/main/Crop%20and%20fertilizer%20Recomendation",
+        "description": "Predictive Machine Learning model and visualization system for optimal crop and fertilizer selection.\n",
+        "achievements": [
+          "Preprocessed 2,000+ soil samples using **Pandas** & **NumPy** to prepare features for training.",
+          "Developed **Scikit-learn** Decision Tree models (99.7% accuracy), reducing chemical waste by ~15%.",
+          "Conducted EDA and deployed interactive dashboards to visualize agricultural soil insights."
+        ],
+        "tags": [
+          "Machine Learning",
+          "Agriculture",
+          "Decision Trees"
+        ]
+      },
+      {
+        "name": "Spam Detection using BERT",
+        "roles": [
+          "ai_engineer"
+        ],
+        "date": "April 2025",
+        "github": "https://github.com/zer-art/NLP_PROJECTS/tree/main/SPAM_DETECTION_USING_BERT",
+        "description": "Robust spam classifier using BERT transformers.\n",
+        "achievements": [
+          "Fine-tuned pre-trained **BERT transformers** for spam classification, achieving **97.7% Accuracy** on text datasets.",
+          "Achieved **0% False Positives** through threshold optimization, ensuring critical communications are never blocked."
+        ],
+        "tags": [
+          "NLP",
+          "BERT",
+          "Deep Learning"
+        ]
+      },
+      {
+        "name": "Handwritten Digit Classification",
+        "roles": [
+          "ai_engineer"
+        ],
+        "date": "April 2025",
+        "description": "Deep learning model to classify handwritten digits using the MNIST dataset.\n",
+        "achievements": [
+          "Implemented a high-performance **MLP** in **Keras**, achieving **98.2% test accuracy** on the standard MNIST dataset.",
+          "Designed custom neural network architectures and performed hyperparameter tuning to optimize model convergence."
+        ],
+        "tags": [
+          "Deep Learning",
+          "Neural Networks",
+          "MNIST"
+        ]
+      },
+      {
+        "name": "Railflow",
+        "roles": [
+          "data_analytics",
+          "ai_engineer"
+        ],
+        "description": "Intelligent Decision Support System for Indian Railways train scheduling.\n",
+        "github": "https://github.com/zer-art/Railflow",
+        "achievements": [
+          "Optimized scheduling logic using **RL** and Operations Research, reducing scheduling computation times to **<50ms**.",
+          "Developed a simulated **Digital Twin environment** for Indian Railways to model train operations and delay patterns."
+        ],
+        "tags": [
+          "Reinforcement Learning",
+          "Operations Research",
+          "Simulation"
+        ]
+      },
+      {
+        "name": "Portfolio",
+        "roles": [
+          "data_analytics",
+          "ai_engineer"
+        ],
+        "description": "Personal portfolio website showcasing Data Science and AI/ML projects.",
+        "github": "https://github.com/zer-art/portfolio",
+        "achievements": [
+          "Designed and deployed a responsive, dark-mode enabled personal portfolio website using **TailwindCSS** and **DaisyUI**."
+        ],
+        "tags": [
+          "Web Development"
+        ]
+      },
+      {
+        "name": "Issuedesk Bot",
+        "description": "No description provided.",
+        "github": "https://github.com/zer-art/IssueDesk_bot",
+        "tags": [],
+        "achievements": [
+          "**Multi-Organization Monitoring**: Track issues across multiple GitHub organizations",
+          "**Rule-Based Filtering**: Define custom rules to filter and categorize issues",
+          "**Telegram Notifications**: Send issue alerts to Telegram topics with emoji labels"
+        ],
+        "date": "December 2025"
+      },
+      {
+        "name": "Lovable Clone",
+        "description": "No description provided.",
+        "github": "https://github.com/zer-art/lovable-clone",
+        "tags": [],
+        "achievements": [
+          "Python 3.11 or higher",
+          "[uv](https://github.com/astral-sh/uv) (Python package manager)",
+          "Docker (optional, for containerized deployment)"
+        ],
+        "date": "December 2025"
+      },
+      {
+        "name": "Portfolio Neo",
+        "description": "No description provided.",
+        "github": "https://github.com/zer-art/portfolio-neo",
+        "tags": [],
+        "achievements": [
+          "[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh",
+          "[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh"
+        ],
+        "date": "December 2025"
+      },
+      {
+        "name": "Mockout",
+        "description": "No description provided.",
+        "github": "https://github.com/zer-art/MockOut",
+        "tags": [],
+        "achievements": [
+          "**Subject Coverage**: Questions from Computer Science, Mathematics, and Logical Reasoning.",
+          "**Randomized Questions**:",
+          "36 Computer Science questions"
+        ],
+        "date": "February 2026"
+      }
+    ],
+    "open_source": [
+      {
+        "project": "google-deepmind/mujoco_warp",
+        "title": "Added explicit check to raise ValueError on CPU devices",
+        "pr_number": "#1003",
+        "date": "January 2026",
+        "status": "Open",
+        "description": "Added CPU device validation check to prevent simulation crashes on non-GPU hardware.",
+        "url": "https://github.com/google-deepmind/mujoco_warp/pull/1003"
+      },
+      {
+        "project": "kornia/kornia",
+        "title": "feat: add rectangular and gaussian kernels for mutual information loss",
+        "pr_number": "#3478",
+        "date": "January 2026",
+        "status": "Closed",
+        "description": "Implemented rectangular and truncated Gaussian kernel functions in PyTorch for mutual information loss.",
+        "url": "https://github.com/kornia/kornia/pull/3478"
+      },
+      {
+        "project": "openclimatefix/open-data-pvnet",
+        "title": "refactor: Rename configs to uk_gfs_configs and remove non-GFS yamls",
+        "pr_number": "#116",
+        "date": "January 2026",
+        "status": "Open",
+        "description": "Refactored repository configuration structure and removed non-GFS configuration files.",
+        "url": "https://github.com/openclimatefix/open-data-pvnet/pull/116"
+      },
+      {
+        "project": "openclimatefix/graph_weather",
+        "title": "feat: Add Stochastic Decomposition Layer and Fix Dependencies",
+        "pr_number": "#188",
+        "date": "January 2026",
+        "status": "Closed",
+        "description": "Implemented the Stochastic Decomposition Layer as a standalone module for weather models.",
+        "url": "https://github.com/openclimatefix/graph_weather/pull/188"
+      },
+      {
+        "project": "kornia/kornia",
+        "title": "[Feature]: Implement Rectangular and Truncated Gaussian Kernels for Mutual Information",
+        "pr_number": "#3473",
+        "date": "January 2026",
+        "status": "Closed",
+        "description": "Designed rectangular and truncated Gaussian kernels for mutual information loss calculations.",
+        "url": "https://github.com/kornia/kornia/issues/3473"
+      },
+      {
+        "project": "google-deepmind/formal-conjectures",
+        "title": "Formalize Erdős Problem 1107",
+        "date": "December 2025",
+        "pr_number": "#1304",
+        "comments": 11,
+        "description": "Formalized Erdős Problem 1107 and definitions for r-powerful numbers in the Lean proof assistant.",
+        "changes": "+52 -0 lines"
+      },
+      {
+        "project": "google-deepmind/mujoco_warp",
+        "title": "Add Implicit Integrator and RNE Derivative Support",
+        "pr_number": "#912",
+        "date": "December 2025",
+        "status": "Open",
+        "description": "Implemented Implicit Velocity Integrator and RNE derivative support for differentiable physics.",
+        "closes": "#891"
+      },
+      {
+        "project": "kornia/kornia",
+        "title": "Differentiable Mutual Information Loss & Batch Consistency Validation",
+        "pr_number": "#3374",
+        "date": "December 2025",
+        "status": "Completed",
+        "description": "Co-authored differentiable Mutual Information loss and resolved PyTorch tensor broadcasting issues."
+      },
+      {
+        "project": "completementgaga/kornia",
+        "title": "test: verify batch consistency (reproduces RuntimeError)",
+        "pr_number": "#2",
+        "date": "December 2025",
+        "status": "Closed",
+        "description": "Created tests to reproduce and document batch processing failures in mutual information loss.",
+        "url": "https://github.com/completementgaga/kornia/pull/2"
+      },
+      {
+        "project": "completementgaga/kornia",
+        "title": "feat: replace torch-kde with native PyTorch polynomial kernel",
+        "pr_number": "#1",
+        "date": "December 2025",
+        "status": "Closed",
+        "description": "Replaced external torch-kde dependency with native PyTorch mutual information kernel.",
+        "url": "https://github.com/completementgaga/kornia/pull/1"
+      },
+      {
+        "project": "openclimatefix/global-solar-dataset",
+        "title": "Add Belgium grid data documentation and Update the countries table",
+        "pr_number": "#40",
+        "date": "December 2025",
+        "status": "Open",
+        "description": "Added Belgium solar grid data documentation and updated country reference tables.",
+        "url": "https://github.com/openclimatefix/global-solar-dataset/pull/40"
+      },
+      {
+        "project": "google-deepmind/formal-conjectures",
+        "title": "feat(ErdosProblems): 1093",
+        "pr_number": "#1328",
+        "date": "December 2025",
+        "status": "Closed",
+        "description": "Formalized Erdős Problem 1093 deficiency of binomial coefficients in Lean proof assistant.",
+        "url": "https://github.com/google-deepmind/formal-conjectures/pull/1328"
+      },
+      {
+        "project": "google-deepmind/formal-conjectures",
+        "title": "Formalize Erdős Problem 1107",
+        "pr_number": "#1327",
+        "date": "December 2025",
+        "status": "Closed",
+        "description": "Completed Lean formalization of Erdős Problem 1107 involving r-powerful numbers.",
+        "url": "https://github.com/google-deepmind/formal-conjectures/pull/1327"
+      },
+      {
+        "project": "JdeRobot/RoboticsAcademy",
+        "title": "fix: correct broken link for digit classifier exercise",
+        "date": "November 2025",
+        "status": "Merged",
+        "description": "Fixed broken documentation link for the digit classifier exercise tutorial."
+      },
+      {
+        "project": "google-deepmind/optax",
+        "title": "Clarify difference between kl_divergence and convex_kl_divergence",
+        "pr_number": "#1514",
+        "date": "November 2025",
+        "status": "Closed",
+        "description": "Documented the mathematical differences between kl_divergence and convex_kl_divergence.",
+        "url": "https://github.com/google-deepmind/optax/pull/1514"
+      },
+      {
+        "project": "JdeRobot/RoboticsAcademy",
+        "title": "fix: correct broken link for digit classifier exercise",
+        "pr_number": "#3339",
+        "date": "November 2025",
+        "status": "Closed",
+        "description": "Fixed broken digit classifier exercise documentation link in Computer Vision section.",
+        "url": "https://github.com/JdeRobot/RoboticsAcademy/pull/3339"
+      },
+      {
+        "project": "Cloud-CV/EvalAI",
+        "title": "Fix #2559: Remove obsolete virtualenv and legacy errors from FAQ",
+        "pr_number": "#4817",
+        "date": "November 2025",
+        "status": "Open",
+        "description": "Removed obsolete Python 2.7 FAQ virtualenv instructions to modernize the setup guide.",
+        "url": "https://github.com/Cloud-CV/EvalAI/pull/4817"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Data Science",
+        "issuer": "Testdome",
+        "date": "October 2025",
+        "credential_url": "https://www.testdome.com/certificates/101ae98a2f6b41a3803c3fd207913a3c"
+      },
+      {
+        "name": "Big Data Foundations - Level 1",
+        "issuer": "IBM",
+        "date": "August 2025",
+        "credential_url": "https://www.credly.com/badges/eef48180-b39a-43ec-a5c2-118d2692b78b/linked_in_profile"
+      },
+      {
+        "name": "GenAI Job Simulation",
+        "issuer": "BCG",
+        "date": "August 2025",
+        "credential_url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/SKZxezskWgmFjRvj9/gabev3vXhuACr48eb_SKZxezskWgmFjRvj9_qG2PYdg7f9LZyT2Lo_1756273019492_completion_certificate.pdf"
+      },
+      {
+        "name": "Software Engineering Job Simulation",
+        "issuer": "Quantium",
+        "date": "September 2025",
+        "credential_url": "https://www.theforage.com/completion-certificates/32A6DqtsbF7LbKdcq/jhiG2W9K8KLZK8nXP_32A6DqtsbF7LbKdcq_qG2PYdg7f9LZyT2Lo_1758948211888_completion_certificate.pdf"
+      },
+      {
+        "name": "AI and Data Scientist",
+        "issuer": "OneRoadmap",
+        "date": "August 2025",
+        "credential_url": "https://oneroadmap.io/skills/ai-ds/certificate/CERT-5C43F4CB"
+      }
+    ]
+  },
+  "resumes": {
+    "my_google_cv": {
+      "summary_type": "default",
+      "summary_key": null,
+      "custom_summary_text": null,
+      "projects": [
+        "AIVOX (AI Interview Coach)",
+        "News Research & Synthesis Agent"
+      ],
+      "open_source_enabled": true,
+      "open_source": [
+        "Differentiable Mutual Information Loss & Batch Consistency Validation",
+        "Added explicit check to raise ValueError on CPU devices",
+        "feat: add rectangular and gaussian kernels for mutual information loss"
+      ],
+      "skills": [
+        "FastAPI",
+        "GenAI",
+        "Git",
+        "Keras",
+        "LLM Agents",
+        "LangChain",
+        "MySQL",
+        "NumPy",
+        "Pandas",
+        "Python",
+        "RAG Pipelines",
+        "SQL",
+        "Streamlit",
+        "TensorFlow"
+      ],
+      "certifications": [
+        "Data Science",
+        "Big Data Foundations - Level 1",
+        "GenAI Job Simulation"
+      ]
+    },
+    "data_analytics": {
+      "summary_type": "custom",
+      "summary_key": null,
+      "custom_summary_text": "Final-year Data Analytics student at DSEU specializing in data cleaning, structured analysis, and visualization. Experienced in using Python and SQL to transform raw datasets into actionable insights and interactive dashboards. Proven track record in building high-performance AI solutions and contributing to elite open-source projects like Google DeepMind and Kornia ",
+      "projects": [
+        "AIVOX (AI Interview Coach)",
+        "News Research & Synthesis Agent",
+        "Automated SQL Query & Reporting System"
+      ],
+      "open_source_enabled": true,
+      "open_source": [
+        "feat: add rectangular and gaussian kernels for mutual information loss",
+        "feat: Add Stochastic Decomposition Layer and Fix Dependencies"
+      ],
+      "skills": [
+        "Css",
+        "Differentiable Programming",
+        "Django",
+        "Docker",
+        "Excel",
+        "FastAPI",
+        "Flask",
+        "Git",
+        "Html",
+        "Javascript",
+        "Kornia",
+        "LangChain",
+        "Langgraph",
+        "Matplotlib",
+        "MySQL",
+        "Power BI",
+        "Python",
+        "SQL",
+        "Scikit-learn",
+        "Seaborn",
+        "Streamlit",
+        "Tableau",
+        "TensorFlow"
+      ],
+      "certifications": [
+        "Data Science",
+        "Big Data Foundations - Level 1",
+        "GenAI Job Simulation",
+        "AI and Data Scientist"
+      ]
+    },
+    "PythonDev": {
+      "summary_type": "custom",
+      "summary_key": null,
+      "custom_summary_text": "Final-year B.Sc. Data Analytics student and Contributor to\n      Google DeepMind, Kornia, and Open Climate Fix. Expert in building low-latency\n      AI applications (<100ms) with a focus on Computer Vision, Differentiable Programming,\n      and Deep Learning. Recognized as a Regional Finalist in the Delhi Startup Yuva\n      Festival for RailFlow AI and winner of the DSEU Rajokri Campus Hackathon. Proven\n      track record of optimizing data pipelines and reducing report generation times\n      by 95% while deploying scalable, high-impact ML solutions.",
+      "projects": [
+        "AIVOX (AI Interview Coach)",
+        "Automated SQL Query & Reporting System"
+      ],
+      "open_source_enabled": true,
+      "open_source": [
+        "[Feature]: Implement Rectangular and Truncated Gaussian Kernels for Mutual Information",
+        "Clarify difference between kl_divergence and convex_kl_divergence"
+      ],
+      "skills": [
+        "Css",
+        "deepface",
+        "Differentiable Programming",
+        "Django",
+        "Docker",
+        "Excel",
+        "FastAPI",
+        "Flask",
+        "Git",
+        "Html",
+        "Javascript",
+        "Keras",
+        "Kornia",
+        "LangChain",
+        "Langgraph",
+        "Matplotlib",
+        "MySQL",
+        "NLTK",
+        "Node.js",
+        "NumPy",
+        "OpenCV",
+        "Pandas",
+        "pixi",
+        "Power BI",
+        "PyTorch",
+        "Python",
+        "RAG Pipelines",
+        "SQL",
+        "Scikit-learn",
+        "Seaborn",
+        "spaCy",
+        "Streamlit",
+        "TensorFlow",
+        "n8n",
+        "tailwindcss"
+      ],
+      "certifications": [
+        "Data Science",
+        "Big Data Foundations - Level 1",
+        "GenAI Job Simulation",
+        "Software Engineering Job Simulation",
+        "AI and Data Scientist"
+      ]
+    },
+    "AiDev": {
+      "summary_type": "preset",
+      "summary_key": "ai_dev",
+      "projects": [
+        "News Research & Synthesis Agent",
+        "Automated SQL Query & Reporting System",
+        "Pneumonia Detection"
+      ],
+      "open_source_enabled": true,
+      "open_source": [
+        "Added explicit check to raise ValueError on CPU devices",
+        "feat: add rectangular and gaussian kernels for mutual information loss"
+      ],
+      "skills": [
+        "Python",
+        "SQL",
+        "JS",
+        "Java",
+        "HTML",
+        "Tailwind",
+        "NumPy",
+        "Pandas",
+        "Scikit-learn",
+        "Matplotlib",
+        "pyplot",
+        "Streamlit",
+        "FastAPI",
+        "Node.js",
+        "Django",
+        "React",
+        "LangChain",
+        "RAG Pipelines",
+        "Langgraph",
+        "NLTK",
+        "OpenCV",
+        "PyTorch",
+        "TensorFlow",
+        "Docker",
+        "Git",
+        "n8n"
+      ],
+      "certifications": [
+        "Data Science",
+        "GenAI Job Simulation",
+        "Big Data Foundations - Level 1",
+        "Software Engineering Job Simulation"
+      ]
+    },
+    "ai_engineer": {
+      "summary_type": "preset",
+      "summary_key": "ai_engineer",
+      "projects": [
+        "AIVOX (AI Interview Coach)",
+        "News Research & Synthesis Agent",
+        "Healthcare Chatbot"
+      ],
+      "open_source_enabled": true,
+      "open_source": [
+        "Added explicit check to raise ValueError on CPU devices",
+        "feat: add rectangular and gaussian kernels for mutual information loss",
+        "Clarify difference between kl_divergence and convex_kl_divergence"
+      ],
+      "skills": [
+        "Python",
+        "SQL",
+        "Javascript",
+        "Java",
+        "Typescript",
+        "FastAPI",
+        "Node.js",
+        "React",
+        "REST APIs",
+        "NumPy",
+        "Pandas",
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "Kornia",
+        "OpenCV",
+        "deepface",
+        "LangChain",
+        "Langgraph",
+        "RAG Pipelines",
+        "Scikit-learn",
+        "Differentiable Programming",
+        "Git",
+        "Docker",
+        "Azure",
+        "Azure AI Foundry"
+      ],
+      "certifications": [
+        "Data Science",
+        "GenAI Job Simulation",
+        "Big Data Foundations - Level 1",
+        "Software Engineering Job Simulation",
+        "AI and Data Scientist"
+      ]
+    }
+  }
+}
