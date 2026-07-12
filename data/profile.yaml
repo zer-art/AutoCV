@@ -162,6 +162,7 @@ projects:
         classDef db fill:#e67e22,stroke:#d35400,stroke-width:2px,color:#fff;
         class API backend; class Client frontend; class MediaPipe,Groq,Gemini ai; class DB db;
   github: https://github.com/zer-art/Academics/tree/main/Major-project
+  url: https://academics-liart.vercel.app
   roles:
   - ai_engineer
   date: September 2025

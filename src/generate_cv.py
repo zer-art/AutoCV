@@ -302,10 +302,11 @@ def profile_to_markdown(data, config):
                 if details:
                     header += f" | {' | '.join(details)}"
 
-                # Check for github or url
-                url = proj.get("github") or proj.get("url")
-                if url:
-                    header += f" [[Github]]({url})"
+                # Check for github and url
+                if proj.get("github"):
+                    header += f" [[Github]]({proj.get('github')})"
+                if proj.get("url"):
+                    header += f" [[Demo]]({proj.get('url')})"
 
                 md.append(header)
 
