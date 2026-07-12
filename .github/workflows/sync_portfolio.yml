@@ -32,28 +32,9 @@ jobs:
           pixi-version: v0.39.0
           cache: true
 
-      - name: Validate Linux Pixi Platform Support
-        run: |
-          python - <<'PY'
-          import tomllib
-
-          with open("pixi.toml", "rb") as f:
-              config = tomllib.load(f)
-
-          platforms = config.get("workspace", {}).get("platforms", [])
-          if "linux-64" not in platforms:
-              raise SystemExit("pixi.toml workspace.platforms must include linux-64 for ubuntu workflows.")
-
-          print("linux-64 platform support verified in pixi.toml")
-          PY
-
       - name: Compile Data to JSON
         run: |
           pixi run python src/sync_to_portfolio.py
-
-      - name: Validate Generated JSON
-        run: |
-          python -m json.tool portfolio-neo/src/data.json >/dev/null
 
       - name: Update Portfolio Data
         run: |

@@ -5,3 +5,9 @@
 .ds_store
 *.DS_Store
 *.pdf
+# checked-out portfolio repo (used only during workflow)
+portfolio-neo/
+# python cache
+__pycache__/
+# temp files
+src/temp_resume.md
