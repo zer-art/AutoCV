@@ -306,7 +306,7 @@ def profile_to_markdown(data, config):
                 if proj.get("github"):
                     header += f" [[Github]]({proj.get('github')})"
                 if proj.get("url"):
-                    header += f" [[Demo]]({proj.get('url')})"
+                    header += f" [[Live]]({proj.get('url')})"
 
                 md.append(header)
 
