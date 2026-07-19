@@ -378,6 +378,13 @@ projects:
   - NLP
   - BERT
   - Deep Learning
+  versions:
+    gs_operations:
+      name: Automated Risk Classification & Filtering Pipeline
+      description: 'High-accuracy classification pipeline for detecting anomalies and mitigating communication risks.'
+      achievements:
+      - Engineered a high-accuracy classification pipeline using statistical modeling to instantly categorize unstructured data and flag critical anomalies.
+      - Achieved a 0% false-positive rate through rigorous threshold optimization, ensuring critical business communications and workflows are never disrupted.
 - name: Handwritten Digit Classification
   roles:
   - ai_engineer

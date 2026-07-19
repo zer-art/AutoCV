@@ -1,80 +1,4 @@
 resumes:
-  my_google_cv:
-    summary_type: default
-    summary_key: null
-    custom_summary_text: null
-    projects:
-      AIVOX (AI Interview Coach): default
-      News Research & Synthesis Agent: default
-    open_source_enabled: true
-    open_source:
-    - Differentiable Mutual Information Loss & Batch Consistency Validation
-    - Added explicit check to raise ValueError on CPU devices
-    - 'feat: add rectangular and gaussian kernels for mutual information loss'
-    skills:
-    - FastAPI
-    - GenAI
-    - Git
-    - Keras
-    - LLM Agents
-    - LangChain
-    - MySQL
-    - NumPy
-    - Pandas
-    - Python
-    - RAG Pipelines
-    - SQL
-    - Streamlit
-    - TensorFlow
-    certifications:
-    - Data Science
-    - Big Data Foundations - Level 1
-    - GenAI Job Simulation
-  data_analytics:
-    summary_type: custom
-    summary_key: null
-    custom_summary_text: 'Final-year Data Analytics student at DSEU specializing in
-      data cleaning, structured analysis, and visualization. Experienced in using
-      Python and SQL to transform raw datasets into actionable insights and interactive
-      dashboards. Proven track record in building high-performance AI solutions and
-      contributing to elite open-source projects like Google DeepMind and Kornia '
-    projects:
-      AIVOX (AI Interview Coach): default
-      News Research & Synthesis Agent: default
-      Automated SQL Query & Reporting System: default
-    open_source_enabled: true
-    open_source:
-    - 'feat: add rectangular and gaussian kernels for mutual information loss'
-    - 'feat: Add Stochastic Decomposition Layer and Fix Dependencies'
-    skills:
-    - Css
-    - Differentiable Programming
-    - Django
-    - Docker
-    - Excel
-    - FastAPI
-    - Flask
-    - Git
-    - Html
-    - Javascript
-    - Kornia
-    - LangChain
-    - Langgraph
-    - Matplotlib
-    - MySQL
-    - Power BI
-    - Python
-    - SQL
-    - Scikit-learn
-    - Seaborn
-    - Streamlit
-    - Tableau
-    - TensorFlow
-    certifications:
-    - Data Science
-    - Big Data Foundations - Level 1
-    - GenAI Job Simulation
-    - AI and Data Scientist
   PythonDev:
     summary_type: custom
     summary_key: null
@@ -239,7 +163,7 @@ resumes:
       Automated SQL Query & Reporting System: gs_operations
       News Research & Synthesis Agent: gs_operations
       Issuedesk Bot: gs_operations
-      Resume Classification & Analytics System: gs_operations
+      Spam Detection using BERT: gs_operations
     open_source_enabled: false
     open_source: []
     skills:
