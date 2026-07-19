@@ -28,15 +28,17 @@ custom_summaries:
     performing EDA, and building/testing automated systems using Python (NumPy, Pandas,
     Scikit-learn, Matplotlib). Core contributor to Google DeepMind and Kornia libraries,
     leveraging Git/GitHub for version control to deliver robust production-ready code.
-summary: >
-  Final-year Data Analytics student and core open-source contributor to Google DeepMind 
-  (Optax, MuJoCo) and Kornia. Expert in building high-performance, low-latency AI applications 
-  (<100ms) with a strong focus on Computer Vision, Differentiable Programming, and Large 
-  Language Models (LLMs). Proven track record of optimizing data pipelines, engineering 
-  scalable RAG architectures, and deploying end-to-end Machine Learning solutions using 
-  Python, SQL, and FastAPI. Adept at translating complex raw datasets into actionable 
-  strategic insights. Seeking entry-level AI Engineering or Data Analytics roles to drive 
-  innovation and data-informed decision-making in high-impact environments.
+summary: 'Final-year Data Analytics student and core open-source contributor to Google
+  DeepMind  (Optax, MuJoCo) and Kornia. Expert in building high-performance, low-latency
+  AI applications  (<100ms) with a strong focus on Computer Vision, Differentiable
+  Programming, and Large  Language Models (LLMs). Proven track record of optimizing
+  data pipelines, engineering  scalable RAG architectures, and deploying end-to-end
+  Machine Learning solutions using  Python, SQL, and FastAPI. Adept at translating
+  complex raw datasets into actionable  strategic insights. Seeking entry-level AI
+  Engineering or Data Analytics roles to drive  innovation and data-informed decision-making
+  in high-impact environments.
+
+  '
 education:
 - institution: DSEU Rajokri Campus
   location: Delhi, India
@@ -145,22 +147,18 @@ skills:
   - pyplot
 projects:
 - name: AIVOX (AI Interview Coach)
-  mermaid: |
-    graph TD
-        Client[User Browser / React Frontend] <-->|Video & Audio Streams| API[FastAPI Backend]
-        API -->|Process Frames| MediaPipe[MediaPipe Worker]
-        MediaPipe -.->|Visual Cues & Posture| API
-        API -->|Audio Chunks| Groq[Groq / Whisper API]
-        Groq -.->|Fast Transcription| API
-        API -->|Text & Context| Gemini[Google Gemini API]
-        Gemini -.->|Interview Evaluation| API
-        API -->|Save Reports & Metrics| DB[(Firestore Database)]
-        DB -.->|Fetch Dashboard Data| Client
-        classDef backend fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff;
-        classDef frontend fill:#2980b9,stroke:#2980b9,stroke-width:2px,color:#fff;
-        classDef ai fill:#8e44ad,stroke:#8e44ad,stroke-width:2px,color:#fff;
-        classDef db fill:#e67e22,stroke:#d35400,stroke-width:2px,color:#fff;
-        class API backend; class Client frontend; class MediaPipe,Groq,Gemini ai; class DB db;
+  mermaid: "graph TD\n    Client[User Browser / React Frontend] <-->|Video & Audio\
+    \ Streams| API[FastAPI Backend]\n    API -->|Process Frames| MediaPipe[MediaPipe\
+    \ Worker]\n    MediaPipe -.->|Visual Cues & Posture| API\n    API -->|Audio Chunks|\
+    \ Groq[Groq / Whisper API]\n    Groq -.->|Fast Transcription| API\n    API -->|Text\
+    \ & Context| Gemini[Google Gemini API]\n    Gemini -.->|Interview Evaluation|\
+    \ API\n    API -->|Save Reports & Metrics| DB[(Firestore Database)]\n    DB -.->|Fetch\
+    \ Dashboard Data| Client\n    classDef backend fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff;\n\
+    \    classDef frontend fill:#2980b9,stroke:#2980b9,stroke-width:2px,color:#fff;\n\
+    \    classDef ai fill:#8e44ad,stroke:#8e44ad,stroke-width:2px,color:#fff;\n  \
+    \  classDef db fill:#e67e22,stroke:#d35400,stroke-width:2px,color:#fff;\n    class\
+    \ API backend; class Client frontend; class MediaPipe,Groq,Gemini ai; class DB\
+    \ db;\n"
   github: https://github.com/zer-art/Academics/tree/main/Major-project
   url: https://academics-liart.vercel.app
   roles:
@@ -185,21 +183,15 @@ projects:
   - PyTorch
   - Groq
 - name: News Research & Synthesis Agent
-  mermaid: |
-    graph TD
-        UI[Streamlit User Interface] -->|User Research Query| Agent[LangChain Agent]
-        Agent -->|Search Web| Scraper[Web/News Fetcher]
-        Scraper -.->|Raw Documents| Agent
-        Agent -->|Chunking| Embeddings[HuggingFace Embeddings]
-        Embeddings -->|Store Vectors| VectorDB[(ChromaDB)]
-        Agent <-->|Retrieve Context| VectorDB
-        Agent -->|Prompt + Context| LLM[Gemini / OpenAI API]
-        LLM -.->|Synthesized Insights| Agent
-        Agent -->|Final Report| UI
-        classDef agent fill:#16a085,stroke:#16a085,color:#fff;
-        classDef llm fill:#8e44ad,stroke:#8e44ad,color:#fff;
-        classDef db fill:#f39c12,stroke:#f39c12,color:#fff;
-        class Agent agent; class Embeddings,LLM llm; class VectorDB db;
+  mermaid: "graph TD\n    UI[Streamlit User Interface] -->|User Research Query| Agent[LangChain\
+    \ Agent]\n    Agent -->|Search Web| Scraper[Web/News Fetcher]\n    Scraper -.->|Raw\
+    \ Documents| Agent\n    Agent -->|Chunking| Embeddings[HuggingFace Embeddings]\n\
+    \    Embeddings -->|Store Vectors| VectorDB[(ChromaDB)]\n    Agent <-->|Retrieve\
+    \ Context| VectorDB\n    Agent -->|Prompt + Context| LLM[Gemini / OpenAI API]\n\
+    \    LLM -.->|Synthesized Insights| Agent\n    Agent -->|Final Report| UI\n  \
+    \  classDef agent fill:#16a085,stroke:#16a085,color:#fff;\n    classDef llm fill:#8e44ad,stroke:#8e44ad,color:#fff;\n\
+    \    classDef db fill:#f39c12,stroke:#f39c12,color:#fff;\n    class Agent agent;\
+    \ class Embeddings,LLM llm; class VectorDB db;\n"
   github: https://github.com/zer-art/LLM-Projects/tree/main/News-Research-Analysis
   roles:
   - ai_engineer
@@ -240,19 +232,13 @@ projects:
   - Machine Learning
   - TF-IDF
 - name: Automated SQL Query & Reporting System
-  mermaid: |
-    graph TD
-        UI[Streamlit Dashboard] -->|Natural Language Query| Agent[LangChain SQL Agent]
-        Agent <-->|Search Schema| VectorDB[(ChromaDB)]
-        Agent -->|Context + Query| LLM[Gemini LLM]
-        LLM -.->|Generated SQL| Agent
-        Agent -->|Execute| SQLDB[(MySQL Database)]
-        SQLDB -.->|Raw Data Results| Agent
-        Agent -->|Format| Pandas[Pandas Processing]
-        Pandas -->|Visualizations| UI
-        classDef core fill:#2980b9,color:#fff;
-        classDef db fill:#c0392b,color:#fff;
-        class UI,Pandas core; class VectorDB,SQLDB db;
+  mermaid: "graph TD\n    UI[Streamlit Dashboard] -->|Natural Language Query| Agent[LangChain\
+    \ SQL Agent]\n    Agent <-->|Search Schema| VectorDB[(ChromaDB)]\n    Agent -->|Context\
+    \ + Query| LLM[Gemini LLM]\n    LLM -.->|Generated SQL| Agent\n    Agent -->|Execute|\
+    \ SQLDB[(MySQL Database)]\n    SQLDB -.->|Raw Data Results| Agent\n    Agent -->|Format|\
+    \ Pandas[Pandas Processing]\n    Pandas -->|Visualizations| UI\n    classDef core\
+    \ fill:#2980b9,color:#fff;\n    classDef db fill:#c0392b,color:#fff;\n    class\
+    \ UI,Pandas core; class VectorDB,SQLDB db;\n"
   roles:
   - data_analytics
   github: https://github.com/zer-art/LLM-Projects/tree/main/Mysql-database-chatbot
@@ -273,15 +259,11 @@ projects:
   - sentence-transformers
   - chromadb
 - name: Pneumonia Detection
-  mermaid: |
-    graph LR
-        Client[Web/Mobile Client] -->|Upload X-Ray| API[FastAPI Server]
-        API -->|Raw Image| CV[OpenCV / NumPy]
-        CV -->|Resize & Normalize| Model((TensorFlow CNN))
-        Model -.->|91.3% Accuracy| API
-        API -->|Diagnostic Result| Client
-        classDef api fill:#2c3e50,color:#fff; classDef model fill:#27ae60,color:#fff;
-        class API api; class Model model;
+  mermaid: "graph LR\n    Client[Web/Mobile Client] -->|Upload X-Ray| API[FastAPI\
+    \ Server]\n    API -->|Raw Image| CV[OpenCV / NumPy]\n    CV -->|Resize & Normalize|\
+    \ Model((TensorFlow CNN))\n    Model -.->|91.3% Accuracy| API\n    API -->|Diagnostic\
+    \ Result| Client\n    classDef api fill:#2c3e50,color:#fff; classDef model fill:#27ae60,color:#fff;\n\
+    \    class API api; class Model model;\n"
   roles:
   - ai_engineer
   github: https://github.com/zer-art/Computer-Vision-Projects/tree/pneumonia-detection-import/pneumonia-detection
@@ -441,6 +423,16 @@ projects:
   - '**Randomized Questions**:'
   - 36 Computer Science questions
   date: February 2026
+- name: Autocv
+  description: No description provided.
+  github: https://github.com/zer-art/AutoCV
+  tags: []
+  achievements:
+  - 📝 **Interactive Configuration** - Wizard-based interface to select resume content
+  - 🎯 **Tailored Resumes** - Create role-specific resumes from your master profile
+  - 🔄 **Reusable Configurations** - Save and reuse resume "recipes" for different
+    positions
+  date: July 2026
 open_source:
 - project: google-deepmind/mujoco_warp
   title: Added explicit check to raise ValueError on CPU devices
