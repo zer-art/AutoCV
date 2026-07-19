@@ -1,0 +1,45 @@
+templates:
+  default: |
+    {name}
+    {location}
+    {email} | {phone}
+    {linkedin}
+
+    {date}
+
+    {company}
+
+    Dear {hiring_manager},
+
+    [Your cover letter content here]
+
+    Sincerely,
+
+    {name}
+  gs_operations: |
+    {name}
+    {location}
+    {email} | {phone}
+    {linkedin}
+
+    {date}
+
+    {company}
+    Operations Division
+    {company_location}
+
+    Dear {hiring_manager},
+
+    I am writing to express my strong interest in the 2027 Operations Summer Analyst program at Goldman Sachs in Mumbai. As a final-year Data Analytics student at DSEU Rajokri Campus with extensive experience in data engineering, process optimization, and system monitoring, I am excited about the opportunity to contribute to the core division that enables Goldman Sachs' global businesses to flow efficiently and securely.
+
+    The Operations division's commitment to ensuring the accuracy and efficiency of every trade, while continuously mitigating risks and reengineering processes, strongly resonates with my professional background. In my recent projects, I have consistently focused on building high-performance systems and eliminating process bottlenecks. For instance, in developing an **Automated Information Synthesis Engine**, I optimized asynchronous data pipelines to aggregate 50+ concurrent sources, reducing research and reporting latency from hours to under 2.1 seconds. Similarly, I designed an **Automated SQL Query & Reporting System** that reduced report generation times by 95% across 500+ complex queries. These experiences have instilled in me a deep understanding of how to maintain system integrity while scaling operations—skills directly applicable to ensuring trades are settled properly, accurately, and on time.
+
+    Furthermore, my background in Data Analytics has equipped me with a risk-mitigation mindset. During my Project Internship at Edunet Foundation, I processed over 2,000 data samples to optimize resource allocation and reduce chemical waste by 15%. I understand that Operations is the frontline for protecting the firm and its clients from financial and regulatory risks. My proficiency in Python, SQL, and data visualization tools like Power BI enables me to build robust monitoring and reporting workflows to detect and address potential exposures proactively.
+
+    I am particularly drawn to Goldman Sachs because of its culture of excellence and the opportunity to work alongside industry leaders in reengineering technology and information flows. I am confident that my technical expertise, combined with my rigorous approach to problem-solving and efficiency, makes me a strong fit for the Summer Analyst program.
+
+    Thank you for considering my application. I look forward to the possibility of contributing to the Operations team at Goldman Sachs and would welcome the opportunity to discuss how my skills align with the firm's needs.
+
+    Sincerely,
+
+    {name}

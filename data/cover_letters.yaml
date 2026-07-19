@@ -1,0 +1,7 @@
+cover_letters:
+  test_cl:
+    company: Test Company
+    company_location: Test City
+    date: July 19, 2026
+    hiring_manager: Test Manager
+    template: gs_operations

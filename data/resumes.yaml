@@ -4,8 +4,8 @@ resumes:
     summary_key: null
     custom_summary_text: null
     projects:
-    - AIVOX (AI Interview Coach)
-    - News Research & Synthesis Agent
+      AIVOX (AI Interview Coach): default
+      News Research & Synthesis Agent: default
     open_source_enabled: true
     open_source:
     - Differentiable Mutual Information Loss & Batch Consistency Validation
@@ -39,9 +39,9 @@ resumes:
       dashboards. Proven track record in building high-performance AI solutions and
       contributing to elite open-source projects like Google DeepMind and Kornia '
     projects:
-    - AIVOX (AI Interview Coach)
-    - News Research & Synthesis Agent
-    - Automated SQL Query & Reporting System
+      AIVOX (AI Interview Coach): default
+      News Research & Synthesis Agent: default
+      Automated SQL Query & Reporting System: default
     open_source_enabled: true
     open_source:
     - 'feat: add rectangular and gaussian kernels for mutual information loss'
@@ -87,8 +87,8 @@ resumes:
       \ data pipelines and reducing report generation times\n      by 95% while deploying\
       \ scalable, high-impact ML solutions."
     projects:
-    - AIVOX (AI Interview Coach)
-    - Automated SQL Query & Reporting System
+      AIVOX (AI Interview Coach): default
+      Automated SQL Query & Reporting System: default
     open_source_enabled: true
     open_source:
     - '[Feature]: Implement Rectangular and Truncated Gaussian Kernels for Mutual
@@ -140,9 +140,9 @@ resumes:
     summary_type: preset
     summary_key: ai_dev
     projects:
-    - News Research & Synthesis Agent
-    - Automated SQL Query & Reporting System
-    - Pneumonia Detection
+      News Research & Synthesis Agent: default
+      Automated SQL Query & Reporting System: default
+      Pneumonia Detection: default
     open_source_enabled: true
     open_source:
     - Added explicit check to raise ValueError on CPU devices
@@ -183,9 +183,9 @@ resumes:
     summary_type: preset
     summary_key: ai_engineer
     projects:
-    - AIVOX (AI Interview Coach)
-    - News Research & Synthesis Agent
-    - Healthcare Chatbot
+      AIVOX (AI Interview Coach): default
+      News Research & Synthesis Agent: default
+      Healthcare Chatbot: default
     open_source_enabled: true
     open_source:
     - Added explicit check to raise ValueError on CPU devices
@@ -224,3 +224,38 @@ resumes:
     - Big Data Foundations - Level 1
     - Software Engineering Job Simulation
     - AI and Data Scientist
+  gs_operations:
+    summary_type: custom
+    summary_key: null
+    custom_summary_text: Data Analytics and AI Engineering student with a strong foundation
+      in optimizing complex workflows, engineering robust data pipelines, and ensuring
+      system efficiency. Proven ability to reduce process latency (e.g., accelerating
+      report generation by 95% and reducing reporting latency to under 2.1 seconds)
+      and automate manual analysis with high accuracy. Seeking the Operations Summer
+      Analyst position at Goldman Sachs (Mumbai) to leverage analytical skills, technical
+      proficiency, and a risk-mitigation mindset to ensure seamless transaction processing,
+      accurate reporting, and continuous process reengineering.
+    projects:
+      Automated SQL Query & Reporting System: gs_operations
+      News Research & Synthesis Agent: gs_operations
+      Issuedesk Bot: gs_operations
+      Resume Classification & Analytics System: gs_operations
+    open_source_enabled: false
+    open_source: []
+    skills:
+    - Python
+    - SQL
+    - Excel
+    - Pandas
+    - NumPy
+    - MySQL
+    - Power BI
+    - Tableau
+    - Git
+    - Streamlit
+    - Matplotlib
+    certifications:
+    - Data Science
+    - Big Data Foundations - Level 1
+    - GenAI Job Simulation
+    - Software Engineering Job Simulation

@@ -99,9 +99,23 @@ def interactive_wizard(profile_data, resumes_config_path, default_name=None):
     # 2. Projects Selection
     projects = profile_data.get("projects", [])
     project_choices = [p.get("name", "Unnamed") for p in projects]
-    selected_projects = questionary.checkbox(
+    selected_project_names = questionary.checkbox(
         "Select Projects to Include:", choices=project_choices
     ).ask()
+
+    # Determine versions for selected projects
+    selected_projects = {}
+    for p in projects:
+        if p.get("name") in selected_project_names:
+            versions = p.get("versions", {})
+            if versions:
+                choices = ["default"] + list(versions.keys())
+                version = questionary.select(
+                    f"Select version for project '{p.get('name')}':", choices=choices
+                ).ask()
+                selected_projects[p.get("name")] = version
+            else:
+                selected_projects[p.get("name")] = "default"
 
     # 3. Open Source Selection
     include_os = questionary.confirm("Include Open Source Contributions section?").ask()
@@ -281,45 +295,56 @@ def profile_to_markdown(data, config):
             md.append("")
 
     # Projects
-    project_names = config.get("projects") if config else None
+    project_config = config.get("projects") if config else None
     if data.get("projects"):
         # Filter
         projects = data["projects"]
-        if project_names is not None:
-            projects = [p for p in projects if p.get("name") in project_names]
+        if project_config is not None:
+            if isinstance(project_config, list):
+                projects = [p for p in projects if p.get("name") in project_config]
+            else:
+                projects = [p for p in projects if p.get("name") in project_config]
 
         if projects:
             md.append("## Projects")
             for proj in projects:
-                title = proj.get("name", "Project")
+                version = "default"
+                if project_config and isinstance(project_config, dict):
+                    version = project_config.get(proj.get("name"), "default")
+                
+                display_proj = proj.copy()
+                if version != "default" and "versions" in proj and version in proj["versions"]:
+                    display_proj.update(proj["versions"][version])
+
+                title = display_proj.get("name", "Project")
                 details = []
-                if proj.get("date"):
-                    details.append(proj.get("date"))
-                if proj.get("association"):
-                    details.append(proj.get("association"))
+                if display_proj.get("date"):
+                    details.append(display_proj.get("date"))
+                if display_proj.get("association"):
+                    details.append(display_proj.get("association"))
 
                 header = f"### {title}"
                 if details:
                     header += f" | {' | '.join(details)}"
 
                 # Check for github and url
-                if proj.get("github"):
-                    header += f" [[Github]]({proj.get('github')})"
-                if proj.get("url"):
-                    header += f" [[Live]]({proj.get('url')})"
+                if display_proj.get("github"):
+                    header += f" [[Github]]({display_proj.get('github')})"
+                if display_proj.get("url"):
+                    header += f" [[Live]]({display_proj.get('url')})"
 
                 md.append(header)
 
-                if proj.get("description"):
-                    md.append(format_metrics(proj.get("description").strip()))
-                if proj.get("achievements"):
+                if display_proj.get("description"):
+                    md.append(format_metrics(display_proj.get("description").strip()))
+                if display_proj.get("achievements"):
                     md.append("")
-                    for ach in proj["achievements"]:
+                    for ach in display_proj["achievements"]:
                         md.append(f"- {format_metrics(ach)}")
-                if proj.get("tags"):
+                if display_proj.get("tags"):
                     # Ensure separation
                     md.append("")
-                    md.append(f"**Tech Stack:** {', '.join(proj['tags'])}")
+                    md.append(f"**Tech Stack:** {', '.join(display_proj['tags'])}")
                 md.append("")
 
     # Open Source
@@ -536,7 +561,7 @@ def main():
     # Paths
     base_dir = Path(__file__).resolve().parent.parent
     data_dir = base_dir / "data"
-    public_dir = base_dir / "public"
+    public_dir = base_dir / "public" / "resumes"
     src_dir = base_dir / "src"
 
     profile_path = data_dir / "profile.yaml"
