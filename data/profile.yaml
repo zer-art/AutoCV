@@ -10,26 +10,26 @@ default_config:
   theme: modern
   show_projects: true
 custom_summaries:
-  data_analytics: 'Data Analytics student (graduating 2026) with expertise in Python
-    (Pandas, NumPy), SQL,  and Data Visualization. Seeking an internship to leverage
+  data_analytics: 'Data Analytics graduate (B.Sc. completed 2026) with expertise in Python
+    (Pandas, NumPy), SQL,  and Data Visualization. Seeking full-time roles to leverage
     skills in predictive modeling and automated reporting. Core Contributor to Google
     DeepMind and Kornia libraries. Proven ability to optimize data pipelines and reduce
     retrieval times by 95%.
 
     '
-  ai_engineer: 'Computer Science student specializing in Deep Learning, Differentiable
-    Programming, and LLM Agents. Seeking an AI Engineering internship. Core Contributor
+  ai_engineer: 'Computer Science graduate (B.Sc. completed 2026) specializing in Deep Learning, Differentiable
+    Programming, and LLM Agents. Seeking AI Engineering roles. Core Contributor
     to Google DeepMind (Optax, MuJoCo)  and Kornia libraries. Experienced in building
     low-latency AI agents (<100ms latency)  and optimizing production ML workflows.
 
     '
-  ai_dev: Final-year student specializing in AI/ML development, dataset preprocessing,
+  ai_dev: Recent B.Sc. graduate (completed 2026) specializing in AI/ML development, dataset preprocessing,
     and Generative AI solutions. Proven experience in cleaning/preprocessing datasets,
     performing EDA, and building/testing automated systems using Python (NumPy, Pandas,
     Scikit-learn, Matplotlib). Core contributor to Google DeepMind and Kornia libraries,
     leveraging Git/GitHub for version control to deliver robust production-ready code.
 summary: >
-  Final-year Data Analytics student and core open-source contributor to Google DeepMind 
+  Recent B.Sc. Data Analytics graduate (completed 2026) and core open-source contributor to Google DeepMind 
   (Optax, MuJoCo) and Kornia. Expert in building high-performance, low-latency AI applications 
   (<100ms) with a strong focus on Computer Vision, Differentiable Programming, and Large 
   Language Models (LLMs). Proven track record of optimizing data pipelines, engineering 
@@ -42,8 +42,8 @@ education:
   location: Delhi, India
   degree: B.Sc Data Analytics
   field: Information Technology
-  duration: Jun 2023 - Present
-  cgpa: '8.5'
+  duration: Jun 2023 - 2026
+  cgpa: '8.8'
   cuet: 84%
   cuet_percentile: 84% (Best 2 Subjects + 1 Language)
   coursework:

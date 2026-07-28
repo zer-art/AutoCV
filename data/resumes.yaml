@@ -2,7 +2,7 @@ resumes:
   PythonDev:
     summary_type: custom
     summary_key: null
-    custom_summary_text: "Final-year B.Sc. Data Analytics student and Contributor\
+    custom_summary_text: "Recent B.Sc. Data Analytics graduate (completed 2026) and Contributor\
       \ to\n      Google DeepMind, Kornia, and Open Climate Fix. Expert in building\
       \ low-latency\n      AI applications (<100ms) with a focus on Computer Vision,\
       \ Differentiable Programming,\n      and Deep Learning. Recognized as a Regional\
@@ -13,6 +13,7 @@ resumes:
     projects:
       AIVOX (AI Interview Coach): default
       Automated SQL Query & Reporting System: default
+      Pneumonia Detection: default
     open_source_enabled: true
     open_source:
     - '[Feature]: Implement Rectangular and Truncated Gaussian Kernels for Mutual
@@ -104,8 +105,16 @@ resumes:
     - Big Data Foundations - Level 1
     - Software Engineering Job Simulation
   ai_engineer:
-    summary_type: preset
-    summary_key: ai_engineer
+    summary_type: custom
+    summary_key: null
+    custom_summary_text: "Recent B.Sc. Data Analytics graduate (completed 2026) and Contributor\
+      \ to\n      Google DeepMind, Kornia, and Open Climate Fix. Expert in building\
+      \ low-latency\n      AI applications (<100ms) and LLM Agents with a focus on\
+      \ Computer Vision, Differentiable\n      Programming, and Deep Learning. Recognized\
+      \ as a Regional Finalist in the Delhi\n      Startup Yuva Festival for RailFlow\
+      \ AI and winner of the DSEU Rajokri Campus Hackathon.\n      Proven track record\
+      \ of engineering scalable RAG architectures and reducing latency\n      by 95%\
+      \ while deploying production-ready ML solutions."
     projects:
       AIVOX (AI Interview Coach): default
       News Research & Synthesis Agent: default
@@ -151,14 +160,14 @@ resumes:
   gs_operations:
     summary_type: custom
     summary_key: null
-    custom_summary_text: Data Analytics and AI Engineering student with a strong foundation
+    custom_summary_text: Recent Data Analytics and AI Engineering graduate (B.Sc. completed 2026) with a strong foundation
       in optimizing complex workflows, engineering robust data pipelines, and ensuring
       system efficiency. Proven ability to reduce process latency (e.g., accelerating
       report generation by 95% and reducing reporting latency to under 2.1 seconds)
-      and automate manual analysis with high accuracy. Seeking the Operations Summer
-      Analyst position at Goldman Sachs (Mumbai) to leverage analytical skills, technical
-      proficiency, and a risk-mitigation mindset to ensure seamless transaction processing,
-      accurate reporting, and continuous process reengineering.
+      and automate manual analysis with high accuracy. Seeking Operations Analyst
+      roles to leverage analytical skills, technical proficiency, and a risk-mitigation
+      mindset to ensure seamless transaction processing, accurate reporting, and continuous
+      process reengineering.
     projects:
       Automated SQL Query & Reporting System: gs_operations
       News Research & Synthesis Agent: gs_operations
