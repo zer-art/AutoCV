@@ -2,25 +2,25 @@ resumes:
   PythonDev:
     summary_type: custom
     summary_key: null
-    custom_summary_text: "Recent B.Sc. Data Analytics graduate (completed 2026) and Contributor\
-      \ to\n      Google DeepMind, Kornia, and Open Climate Fix. Expert in building\
-      \ low-latency\n      AI applications (<100ms) with a focus on Computer Vision,\
-      \ Differentiable Programming,\n      and Deep Learning. Recognized as a Regional\
-      \ Finalist in the Delhi Startup Yuva\n      Festival for RailFlow AI and winner\
-      \ of the DSEU Rajokri Campus Hackathon. Proven\n      track record of optimizing\
-      \ data pipelines and reducing report generation times\n      by 95% while deploying\
-      \ scalable, high-impact ML solutions."
+    custom_summary_text: "B.Sc. Data Analytics graduate (2026), currently pursuing MCA
+      in Software Engineering at USICT (2026-2028), and Contributor to Google DeepMind,
+      Kornia, and Open Climate Fix. Expert in building low-latency AI applications
+      (<100ms) with a focus on Computer Vision, Differentiable Programming, and Deep
+      Learning. Recognized as a Regional Finalist in the Delhi Startup Yuva Festival
+      for RailFlow AI and winner of the DSEU Rajokri Campus Hackathon. Proven track
+      record of optimizing data pipelines and reducing report generation times by 95%
+      while deploying scalable, high-impact ML solutions."
     projects:
       AIVOX (AI Interview Coach): default
       Automated SQL Query & Reporting System: default
       Pneumonia Detection: default
     open_source_enabled: true
     open_source:
-    - '[Feature]: Implement Rectangular and Truncated Gaussian Kernels for Mutual
-      Information'
+    - "[Feature]: Implement Rectangular and Truncated Gaussian Kernels for Mutual
+      Information"
     - Clarify difference between kl_divergence and convex_kl_divergence
     skills:
-    - Css
+    - CSS
     - deepface
     - Differentiable Programming
     - Django
@@ -29,8 +29,8 @@ resumes:
     - FastAPI
     - Flask
     - Git
-    - Html
-    - Javascript
+    - HTML
+    - JavaScript
     - Keras
     - Kornia
     - LangChain
@@ -53,8 +53,13 @@ resumes:
     - spaCy
     - Streamlit
     - TensorFlow
+    - Typescript
     - n8n
     - tailwindcss
+    - OOPs
+    - System Design
+    - Agile
+    - DevOps
     certifications:
     - Data Science
     - Big Data Foundations - Level 1
@@ -71,14 +76,14 @@ resumes:
     open_source_enabled: true
     open_source:
     - Added explicit check to raise ValueError on CPU devices
-    - 'feat: add rectangular and gaussian kernels for mutual information loss'
+    - "feat: add rectangular and gaussian kernels for mutual information loss"
     skills:
     - Python
     - SQL
-    - JS
+    - JavaScript
     - Java
     - HTML
-    - Tailwind
+    - tailwindcss
     - NumPy
     - Pandas
     - Scikit-learn
@@ -99,6 +104,8 @@ resumes:
     - Docker
     - Git
     - n8n
+    - OOPs
+    - Agile
     certifications:
     - Data Science
     - GenAI Job Simulation
@@ -107,14 +114,14 @@ resumes:
   ai_engineer:
     summary_type: custom
     summary_key: null
-    custom_summary_text: "Recent B.Sc. Data Analytics graduate (completed 2026) and Contributor\
-      \ to\n      Google DeepMind, Kornia, and Open Climate Fix. Expert in building\
-      \ low-latency\n      AI applications (<100ms) and LLM Agents with a focus on\
-      \ Computer Vision, Differentiable\n      Programming, and Deep Learning. Recognized\
-      \ as a Regional Finalist in the Delhi\n      Startup Yuva Festival for RailFlow\
-      \ AI and winner of the DSEU Rajokri Campus Hackathon.\n      Proven track record\
-      \ of engineering scalable RAG architectures and reducing latency\n      by 95%\
-      \ while deploying production-ready ML solutions."
+    custom_summary_text: "B.Sc. Data Analytics graduate (2026), currently pursuing MCA
+      in Software Engineering at USICT (2026-2028), and Contributor to Google DeepMind,
+      Kornia, and Open Climate Fix. Expert in building low-latency AI applications
+      (<100ms) and LLM Agents with a focus on Computer Vision, Differentiable Programming,
+      and Deep Learning. Recognized as a Regional Finalist in the Delhi Startup Yuva
+      Festival for RailFlow AI and winner of the DSEU Rajokri Campus Hackathon. Proven
+      track record of engineering scalable RAG architectures and reducing latency by
+      95% while deploying production-ready ML solutions."
     projects:
       AIVOX (AI Interview Coach): default
       News Research & Synthesis Agent: default
@@ -122,12 +129,12 @@ resumes:
     open_source_enabled: true
     open_source:
     - Added explicit check to raise ValueError on CPU devices
-    - 'feat: add rectangular and gaussian kernels for mutual information loss'
+    - "feat: add rectangular and gaussian kernels for mutual information loss"
     - Clarify difference between kl_divergence and convex_kl_divergence
     skills:
     - Python
     - SQL
-    - Javascript
+    - JavaScript
     - Java
     - Typescript
     - FastAPI
@@ -151,6 +158,12 @@ resumes:
     - Docker
     - Azure
     - Azure AI Foundry
+    - LLD in Java
+    - System Design
+    - OOPs
+    - Agile
+    - DevOps
+    - Cloud
     certifications:
     - Data Science
     - GenAI Job Simulation
@@ -160,14 +173,14 @@ resumes:
   gs_operations:
     summary_type: custom
     summary_key: null
-    custom_summary_text: Recent Data Analytics and AI Engineering graduate (B.Sc. completed 2026) with a strong foundation
-      in optimizing complex workflows, engineering robust data pipelines, and ensuring
-      system efficiency. Proven ability to reduce process latency (e.g., accelerating
-      report generation by 95% and reducing reporting latency to under 2.1 seconds)
-      and automate manual analysis with high accuracy. Seeking Operations Analyst
-      roles to leverage analytical skills, technical proficiency, and a risk-mitigation
-      mindset to ensure seamless transaction processing, accurate reporting, and continuous
-      process reengineering.
+    custom_summary_text: "B.Sc. Data Analytics graduate (2026), currently pursuing MCA
+      in Software Engineering at USICT (2026-2028), with a strong foundation in optimizing
+      complex workflows, engineering robust data pipelines, and ensuring system efficiency.
+      Proven ability to reduce process latency (e.g., accelerating report generation
+      by 95% and reducing reporting latency to under 2.1 seconds) and automate manual
+      analysis with high accuracy. Seeking Operations Analyst roles to leverage analytical
+      skills, technical proficiency, and a risk-mitigation mindset to ensure seamless
+      transaction processing, accurate reporting, and continuous process reengineering."
     projects:
       Automated SQL Query & Reporting System: gs_operations
       News Research & Synthesis Agent: gs_operations
@@ -187,6 +200,8 @@ resumes:
     - Git
     - Streamlit
     - Matplotlib
+    - Agile
+    - Scrum
     certifications:
     - Data Science
     - Big Data Foundations - Level 1
